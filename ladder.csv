@@ -1,0 +1,264 @@
+Level,Scope,Dex,Str,Wis,Cha,
+,,Technical Skill,G(et)S(tuff)D(one),Impact,Communication & Leadership,Notes
+E0 ~ 4 - 6 mth,Knows how to do the walking,"Consegue aplicar os princípios básicos de clean code (https://qulturerocks.atlassian.net/wiki/spaces/DES/pages/8912897/Clean+Code+--+Diretrizes+importantes+e+mais+usadas) 
+
+Domina o ambiente de desenvolvimento (Git, Scripts de Linters, Postgres, redis and RVM) 
+
+Domina todo o pipeline de desenvolvimento (Jira, Branches, well described Pull requests)
+
+Tem conhecimento básico da linguagem de programação principal (backend or frontend)
+
+Conhece bem os conceitos principais de web (requests, response, API, JSON, http, headers, etc)","Consegue entregar tarefas pequenas bem especificadas, com acompanhamento, com ótima qualidade (CRUD) prontas para produção
+
+Sabe quando pedir ajuda pra se desbloquear, sem onerar outros devs, usando bem a regra dos 15 minutos
+
+Não tenta reinventar a roda, utilizando de maneira crítica códigos existentes
+
+Consegue entregar features com testes automatizados suficientes
+
+Consegue resolver bugs mais simples, em geral, sugeridos por algum dev mais sênior ou líder","Conhece bem as features mais básicas do app (Feedbacks, IDP).
+
+Conhece o básico das features mais complexas do app (Survey, PulseSurvey, OKR, Checkin)
+
+","Busca proativamente crescer como profissional
+
+Sabe explicar bem o que a Qulture faz.
+
+Sabe comunicar os problemas e dificuldades com clareza
+
+Leu o scrum guide, tem bom entendimento de scrum e participa bem dos eventos
+
+Faz code reviews de PRs simples, realizando testes manuais na sua máquina
+
+Troca bons feedbacks com outros devs sobre qualidade de entregas e acompanha a própria evolução com os feedbacks recebidos
+",http://www.scrumguides.org/index.html
+,,,,,,
+"E1, ~ 1 yr",Executes well on assigned tasks.,"Escreve código correto, aplicando conceitos mais sofiticados do Clean Code, visando as melhores práticas
+
+Possui conhecimentos intermediários de conceitos de OO
+
+Foco em crescimento como engenheiro, aprendendo as ferramentas existentes, recursos e processos
+
+Tem conhecimento intermediário das linguagens de programação com que atua
+
+Consegue entender bem quais tarefas consegue atacar, quando pega uma tarefa difícil demais, consegue ter discernimento para passar para outra pessoa sem gastar um tempo muito grande (equilíbrio entre pegar um desafio para crescer e dar uma passo maior que a perna). ","Toma consistentemente iniciativa para resolver bugs intermediários reportados, sem que seja necessário outra pessoa dar assign
+
+Entrega features bem testadas, com melhores práticas de testes
+
+Faz progresso constante nas tarefas que pega, com um pouco de acompanhamento
+
+Não fica preso em detalhes não importantes ou com baixo ROI / ""bikeshedding""
+
+Busca entregar escopos definidos, partindo as entregas em pedaços menores, ao invés de entregar um grande monolito de funcionalidades
+","Consegue modificar funcionalidade existentes com qualidade
+
+Toma pequenas decisões de design com impacto positivo, sem supervisão
+
+Consegue partir de código existente para criar novas funcionalidades
+
+Participa ativamente em sessões de whiteboarding, desgin, refinements e plannings, chegando preparado para essas reuniões
+
+É autosuficiente em pelo menos 1 feature no app, na sua área (back ou front)
+
+Faz code review para PRs intermediários, contribui positivamente para identificar pontos de melhoria com PRs de módulos familiares","É efetivo em comunicar status e desafios para o squad
+
+Mostra alinhamento com os valores da Qulture e do time de Produto, consegue entendê-los e aplicá-los com consistência no dia a dia
+
+Pratica programação livre de ego. Aceita feedback muito bem e busca oportunidades de pair programming
+
+Sugere melhorias no app a partir de ideias obtidas utilizando o app como Q.Player
+
+Pede feedbacks com frequência e mostra vontade de crescer sempre
+
+Conhece e aplica os princípios do manifesto ágil
+
+Sabe manter um clima profissional no ambiente de trabalho, colaborando para a eficiência na entrega
+
+[M] Faz visitas a clientes junto com CS ou vendas e consegue participar de maneira construtiva da conversa; traz insights para o time sobre essas conversas
+
+[M] Realiza atendimentos de suporte ao cliente eventualmente no Intercom ou via call",http://www.manifestoagil.com.br/principios.html
+,,,,,,
+"E2, ~ 2 yrs","Plans and executes on entire features, working with peers. Given a feature, can break it into small tasks, and own getting them done.","Tem conhecimento avançado das linguagens com que atua.
+
+Escreve código consistentemente aplicando melhores práticas
+
+Tem baixa taxa de decline em PRs devido a inconsistência de melhores práticas
+
+Participa de decisões técnicas no design de features
+
+Começa a ampliar a atuação com infraestrutura (eg, Deploy / Intercom / Pipeline / Analytics / Onesignal / Console Production / Heroku / Sentry / Papertrail)
+
+Aprende rápido e faz progresso sem a necessidade constante de apoio. 
+
+Entende e faz trade-offs com consciência, consegue atuar em codebase de outros squads com ajuda dos integrantes do squad
+
+Doesn't flail while debugging. (http://www.cykod.com/2010-03-know-when-to-debug-know-when-to-flail)","Colabora para features médias e grandes da especificação ténica até o deploy, sem necessidade de muito acompanhamento
+
+Toma iniciativa para resolver bugs complexos reportados, sem que seja necessário outra pessoa dar assign
+
+É persistente quando encontra roadblocks; lida com eles eficientemente, chamando outras pessoas do time, se necessário. Requer direcionamento ou supervisão mínimos
+
+Consegue partir as entregas em milestones mínimos, fazendo pull requets pequenos, com bom uso de feature flags, em sintonia com regra de negócios
+
+Realiza deploys em produção ","É autosuficiente em pelo menos metade dos módulos do app na sua área (back ou front)
+
+Tem um entendimento razoável da área que não é sua especialidade (back ou front), consegue atacar bugs ou tasks pequenas nela
+
+Consegue dar suporte para colegas, esclarecendo dúvidas e ajudando com decisões técnicas
+
+Pega projetos com reponsabilidade end-to-end e de complexidade crescente
+
+Desenvolve bibliotecas ou códigos reutilizáveis
+
+Faz code reviews de PRs de complexidade maior, contribui positivamente para a melhoria da entrega de time
+","Dá feedbacks úteis e timely para pares e líderes
+
+Comunica as premissas que escolheu e clarifica as tarefas antecipadamente pra minimizar o retrabalho
+
+Não executa tarefas cegamente, critica, pensa, questiona e argumenta com clareza, focando no maior ROI possível, mas buys in e mostra ownership quando o time decide algo com que não concorda
+
+Entende como contribuidores individuais se encaixam no contexto maior da empresa; 
+
+Antecipa e identifica problemas com especificações e pedidos de clientes
+
+Espalha conhecimento, decisões técnicas e achievements na Qulture por meio de documentação, tech talks e demos
+
+Faz mentoria de devs mais júniores, pair programming ",
+,,,,,,
+"E3, 3 - 5 yrs","Can plan and execute against strategic priorities. (Helps align prioritization, OKRs, and goals.  Facilitates development feedback / performance check)","Demonstra conhecimento de tendências da indústria, da nossa infraestrutura
+
+Conhece e acompanha estatísticas de uso do app e leva isso em consideração para as escolhas técnicas
+
+É referência no time para busca de conhecimento para decisões técnicas e de negócios; entende toda a arquitetura do sistema
+
+Consegue implementar ou guiar otimizações de arquitetura, ou trazer novos elementos de tecnologia para o sistema
+
+Percebe e critica desvios desnecessários de padrões tecnológicos ou arquiteturais
+
+Melhora a consistência do codebase","Toma iniciativa de consertar problemas estruturais do código ou da infraestrutura. Busca evidência empírica por meio de proof of concepts, testes e pesquisa externa
+
+Consegue executar tarefas que não estão exaustivamente detalhadas, se responsabilizando por detalhamento e quebra em tarefas menores
+
+Entrega projetos complexos e os guia para um estágio de maturidade (testing, bugsmashing, optimizing)
+
+Gerencia expectativas com outros stakeholders. Trabalha bem com estimativas, sempre tentando torná-las mais precisas com o tempo.
+
+É conhecido por drama-free launches
+
+Justifica a inclusão de novas tecnologias (plataformas ou infraestrutura que outros devs precisarão estudar) demonstrando os benefíciosm (vs. ""new and shiny""). Constrói consenso com diferentes stakeholders.
+
+Quando necessário, fica responsável por resolver problemas emergenciais fora do horário de trabalho, como bugs críticos em produção de madrugada.","É autosuficiente em todos os módulos do app na sua área (back ou front)
+
+Tem um entendimento bom da área que não é sua especialidade (back ou front), consegue atacar bugs ou tasks mais sofisticados nela
+
+Entende bem a missão da Qulture, o modelo de negócios e como cada time se encaixa na missão da empresa
+
+Trabalha com outras áreas como BI, CS, vendas para guiar requisitos que levam em consideração diferentes necessidades; Fica responsável por preencher requisitos Due diligence e ajudar vendas ou CS com questões técnicas em relação ao software, como calls com a área de TI de um potencial cliente.
+
+Consegue equilibrar empatia com o cliente e necessidades técnicas ao tomar decisões de engenharia. Ajuda a evitar que o time construa soluções que não resolvam problemas reais. 
+
+Tem iniciativa para identificar e resolver problemas importantes, coordenando ações com outras pessoas.
+
+Proativamente retira impedimentos para o pipeline de continuous integration, trabalhando duro pra que o time consiga entregar com agilidade.","Se comunica efetivamente entre pessoas de funções distintas
+
+Interage de maneira produtiva com outras áreas, como CS, BI, Vendas, Marketing, pareando com os líderes em projetos ou iniciativas
+
+Proativamente identifica problemas com requisitos (falta de clareza, inconsistências, limitações técnicas), ajuda a correção de curso cedo
+
+Consegue discordar construtivamente e dar um passo para trás quando necessário (Especialmente quando interagindo com membros mais sênior da equipe)
+
+Proativamente constrói críticas construtivas de escolhas técnicas, de design ou arquiteturais de outros membros, visando o atingimento das metas do time
+
+Multiplica seu impacto ao potencializar o impacto das pessoas a seu redor, melhorando os code reviews, estilos de código, mentorias, talks, treinamentos, onboarding de novos membros. Colegas gostams dessa interação e colaboração.
+
+Assume papel de líder técnico do squad
+
+[M] Realiza 1:1 com membros do squad
+
+",
+,,,,,,
+,,,,,,
+E4,Runs projects with extremely high business impact and technical risk/ambiguity.,"É referência para technical guidance; antecipa problemas técnicos no nível de produto e toma decisões arquiteturais e de design para evitá-los
+
+Dono e expert em grandes partes do codebase
+
+Habilidade de planejar e implementar abstrações, ferramentas e bibliotecas que são úteis não somente no ponto inicial, mas também em outros pontos do sistema
+
+Tem histórico em criar melhorias na estabilidade, performance e escalabilidade do sistema
+","Reconhecido por ser contribuidor de core and side projects
+
+Consistentemente capaz de reduzir complexidade de projetos, serviços e processos, contribuindo para que o time faça mais com menos trabalho
+
+Consistentemente entrega features grandes com grande nível de qualidade
+
+Rapidamente quebra problemas complexos em soluções potenciais, mapeando knowns e unknowns, para que o time consiga atingir soluções ótimas de maneira mais rápida
+
+Capaz de debugar os problemas mais complicados que o time encontra, especialmente envolvendo múltiplas frentes/ projetos/ serviços
+
+Responsável por melhorias na infraestrutura, upgrades de bibliotecas, gems, tecnologias, que mehorem a saúde e qualidade do sistema","Define direção no nível do squad e consistentemente influencia tomada de decisão entre múltiplos squads
+
+Identifica e proativamente paga dívida técnica antes que cresça e vire um problema que impeça o avanço rápido do sistema
+
+Desenha arquitetura ampla, shipa múltiplas features grandes, bibliotecas complexas ou grandes partes de infraestrutura
+
+Fez um impacto claramente positivo na trajetória técnica da empresa","É frequentemente buscado para review de arquitetura, dá feedbacks em projetos fora de sua área
+
+Entende e articula os tradeoffs entre necessidades técnicas, analíticas e de produto; eficiência vs detalhamento; adição ou remoção de dívida técnica
+
+Multiplica a efitividade de outros facilitando o trabalho cross-teams
+
+Escuta e guia debates pra ajudar a se chegar em um consenso; uma vez tomada a decisão, comunica-a com clareza e a endossa
+
+Define estratégias de direção técnica de curto a médio prazo, consegue olhar de 6 a 12 meses para frente e identifica as áreas de maior necessidade, criando planos para melhorá-las
+
+[M] Assumiu papel de liderança em um squad pequeno (3 a 5 pessoas); realiza performance reviews
+",Does not forget to roll up his/her sleeves and get involved. This (and all of the roles underneath) are not pure architecture roles.
+,,,,,,
+E5,"Sets the highest-level, long-term company objectives and makes them happen.","Antecipa amplas mudanças técnicas e de escalabilidade. Garante que a Qulture está sempre à frente da curva.
+
+Capaz de reconhecer e fazer tradeoffs em relação ao sistema como um todo
+
+Entende profundamente toda a arquitetura do negócio e é capaz de articular claramente os limites, como um todo, de escalabilidade e confiabilidade
+
+Compreensão detalhada de como nossas capacidades técnicas impactam a competitividade dos nossos produtos e serviços no mercado (intuição técnica combinada com intuição de negócios)
+","Deterina os principais riscos e oportunidades técnicos da Qulture e executa eficientemente levando-os em consideração
+
+Proativamente é o promotor de mudanças técnicas do começo ao fim (execução, não só visão)","Tem papel fundamental no desenvolvimento de estratégias de tecnologia de longo prazo (multi-year) para áreas inteiras e áreas críticas do negócio, englobando múltiplos sistemas e times
+
+Decisões tem um impacto direto no sucesso ou falha a longo prazo da Qulture
+
+Cria arquiteturas que permitem diversos futuros potenciais mesmo sem saber qual o futuro se materializará
+
+Cria um pipeline de potenciais candidatos a E4, identificando as estrelas e provendo mentoria técnica focada para a subida na carreira
+","[M] Lidera líderes
+
+[M] Prepara potenciais futuros líderes para papeis de liderança
+
+Age primariamente como multiplicador construindo sistemas, ferramentas ou introduzindo policies ou padrões que aumentam a produtividade da empresa toda
+
+Constrói a marca de engenharia da Qulture externamente por meio de talks e blog posts. Identifica áreas que a Qulture pode compartilhar conhecimento de maneira efetiva no mundo fora da empresa e guia a criação de conteúdo e comunicação nessas áreas
+
+Lidera conversas internamente sobre a direção das principais frentes de tecnologia, conduz o amplo consenso do time para adotar novas tecnologias e usa essa direção para inspirar os engenheiros
+
+Visto como um role model e mentor para todos os líderes técnicos do time
+
+Capaz de manter conversas produtivas com os executivos, superando jargões e assimetria de informações pra inspirar confiança.
+",
+,,,,,,
+E6,Influences the broader engineering community and industry,"Creates and identifies abstractions, patterns, frameworks, and tools within Qulture that have broader applicability to other developers or companies (e.g., fintech firms)
+","Prolific producer of valuable open and closed source software.
+
+Able to balance broader community priorities against making Qulture successful","Consistently creates or produces significant contributions to influential open source projects that significantly impact the software development industry.
+
+Influences technical direction beyond Qulture",Plays a crucial role in building Qulture's reputation as one of the great well-known global technology companies,
+,,,,,,
+,,,,,,
+How to read the ladder,,,,,,
+* The expectations at each level are cumulative.,,,,,,
+* [M] Maganement path,,,,,,
+"* Tech leads have the same expectations as individual contributors to the extent that they are doing individual work, in addition to manager-specific expectations",,,,,,
+,,"This indicates a major ""maturity"" level-up",,,,
+Pro tips,,,,,,
+"* Dex and Str (the ""adder"" attributes) are the primary drivers of promotions at lower levels. At higher levels, the importance gradually shifts to Wis and Cha (the ""multiplier"" attributes).",,,,,,
+"* Not everyone will progress in each column in lockstep. If you are Dex:5/Cha:3, you will not be stuck at E3, but you will likely not be promoted all the way E5. ",,,,,,
+Recommend reading: http://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/,,,,,,
